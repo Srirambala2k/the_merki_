@@ -1,0 +1,409 @@
+{
+ "p0": {
+  "base": [
+   "Page 0",
+   "01_empty.png"
+  ],
+  "layers": [
+   [
+    "02_man",
+    "man",
+    {
+     "roi": [
+      0.38,
+      0.26,
+      0.6,
+      0.58
+     ]
+    }
+   ],
+   [
+    "03_rock",
+    "rock"
+   ],
+   [
+    "04_floor_lamp",
+    "lamp",
+    {
+     "roi": [
+      0.55,
+      0.2,
+      0.72,
+      0.6
+     ]
+    }
+   ],
+   [
+    "05_bulb",
+    "bulb",
+    {
+     "roi": [
+      0.44,
+      0,
+      0.52,
+      0.26
+     ],
+     "hi": 10,
+     "close": 8,
+     "lo": 5,
+     "hs": 28
+    }
+   ],
+   [
+    "06_large_moon",
+    "moon_l",
+    {
+     "mode": "circle",
+     "roi": [
+      0.55,
+      0,
+      0.8,
+      0.26
+     ],
+     "hi": 35
+    }
+   ],
+   [
+    "07_small_moon",
+    "moon_s",
+    {
+     "mode": "circle",
+     "roi": [
+      0.5,
+      0.12,
+      0.68,
+      0.34
+     ],
+     "hi": 35
+    }
+   ],
+   [
+    "08_seated_chair",
+    "chair_seat"
+   ],
+   [
+    "09_floating_chair",
+    "chair_float"
+   ],
+   [
+    "10_stairs",
+    "stairs",
+    {
+     "roi": [
+      0.6,
+      0.74,
+      0.9,
+      1.0
+     ],
+     "hi": 30,
+     "close": 10
+    }
+   ]
+  ]
+ },
+ "p1": {
+  "base": [
+   "Page 1",
+   "01_clean_background.png"
+  ],
+  "layers": [
+   [
+    "01_man_scene",
+    "man"
+   ],
+   [
+    "01_stone_scene",
+    "stone"
+   ]
+  ]
+ },
+ "p2": {
+  "base": null,
+  "layers": [
+   [
+    "02_ufo_white",
+    "ufo",
+    {
+     "mode": "white"
+    }
+   ]
+  ],
+  "bg": [
+   "Page 2",
+   "02_clean_background.png"
+  ]
+ },
+ "p3": {
+  "base": [
+   "Page 0",
+   "01_empty.png"
+  ],
+  "layers": [
+   [
+    "03_man_scene",
+    "man",
+    {
+     "roi": [
+      0.38,
+      0.26,
+      0.6,
+      0.58
+     ]
+    }
+   ],
+   [
+    "03_rock_scene",
+    "rock"
+   ],
+   [
+    "03_floor_lamp_scene",
+    "lamp",
+    {
+     "roi": [
+      0.55,
+      0.2,
+      0.72,
+      0.6
+     ]
+    }
+   ],
+   [
+    "03_hanging_bulb_scene",
+    "bulb",
+    {
+     "roi": [
+      0.44,
+      0,
+      0.52,
+      0.26
+     ],
+     "hi": 10,
+     "close": 8,
+     "lo": 5,
+     "hs": 28
+    }
+   ],
+   [
+    "03_large_moon_scene",
+    "moon_l",
+    {
+     "mode": "circle",
+     "roi": [
+      0.55,
+      0,
+      0.8,
+      0.26
+     ],
+     "hi": 35
+    }
+   ],
+   [
+    "03_small_moon_scene",
+    "moon_s",
+    {
+     "mode": "circle",
+     "roi": [
+      0.5,
+      0.12,
+      0.68,
+      0.34
+     ],
+     "hi": 35
+    }
+   ],
+   [
+    "03_seated_chair_scene",
+    "chair_seat"
+   ],
+   [
+    "03_floating_chair_scene",
+    "chair_float"
+   ],
+   [
+    "03_stairs_scene",
+    "stairs",
+    {
+     "roi": [
+      0.6,
+      0.74,
+      0.9,
+      1.0
+     ],
+     "hi": 30,
+     "close": 10
+    }
+   ]
+  ]
+ },
+ "p4": {
+  "base": [
+   "Page 4",
+   "04_clean_background.png"
+  ],
+  "layers": [
+   [
+    "04_moon_scene",
+    "moon",
+    {
+     "mode": "circle",
+     "roi": [
+      0.1,
+      0.08,
+      0.3,
+      0.36
+     ],
+     "hi": 35
+    }
+   ],
+   [
+    "04_stone_scene",
+    "stone"
+   ]
+  ]
+ },
+ "p5": {
+  "base": [
+   "Page 5",
+   "05_clean_background.png"
+  ],
+  "layers": [
+   [
+    "05_astronaut_scene",
+    "astronaut",
+    {
+     "mode": "bright",
+     "roi": [
+      0.425,
+      0.3,
+      0.567,
+      0.91
+     ],
+     "hi": 34,
+     "close": 8,
+     "bgdiff": 7,
+     "neutral": 4
+    }
+   ],
+   [
+    "05_birds_scene",
+    "birds"
+   ]
+  ]
+ },
+ "p6": {
+  "base": [
+   "Page 6",
+   "06_clean_background.png"
+  ],
+  "layers": [
+   [
+    "06_door_scene",
+    "door"
+   ],
+   [
+    "06_planet_scene",
+    "planet",
+    {
+     "mode": "circle",
+     "roi": [
+      0.3,
+      0.08,
+      0.75,
+      0.72
+     ],
+     "hi": 35
+    }
+   ],
+   [
+    "06_stairs_scene",
+    "stairs"
+   ],
+   [
+    "06_rings_scene",
+    "rings",
+    {
+     "fill": false,
+     "hi": 40,
+     "close": 5,
+     "lo": 38,
+     "hs": 90,
+     "maxluma": 190,
+     "roi": [
+      0.14,
+      0.28,
+      0.86,
+      0.58
+     ]
+    }
+   ],
+   [
+    "06_birds_scene",
+    "birds_single",
+    {
+     "mode": "dark",
+     "roi": [
+      0.05,
+      0.2,
+      0.2,
+      0.36
+     ],
+     "hi": 12,
+     "min": 4e-06,
+     "close": 2
+    }
+   ],
+   [
+    "06_birds_scene",
+    "birds_flock",
+    {
+     "mode": "dark",
+     "roi": [
+      0.66,
+      0.1,
+      0.93,
+      0.3
+     ],
+     "hi": 12,
+     "min": 4e-06,
+     "close": 2
+    }
+   ]
+  ]
+ },
+ "p7": {
+  "base": [
+   "Page 7",
+   "07_clean_background.png"
+  ],
+  "layers": [
+   [
+    "07_unicorn_scene",
+    "unicorn",
+    {
+     "roi": [
+      0.25,
+      0.05,
+      0.7,
+      0.92
+     ]
+    }
+   ]
+  ]
+ },
+ "p8": {
+  "base": [
+   "Page 8",
+   "08_clean_background.png"
+  ],
+  "layers": [
+   [
+    "08_tram_scene",
+    "tram",
+    {
+     "hi": 30,
+     "close": 14
+    }
+   ]
+  ]
+ }
+}

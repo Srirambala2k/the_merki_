@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+@import './merki.css';
+
+@theme {
+  --font-sans: 'Open Sans Variable', 'Segoe UI', system-ui, sans-serif;
+  --font-serif: 'Source Serif 4 Variable', Georgia, serif;
+}
+
+html,
+body {
+  margin: 0;
+  background: #0b0b0b;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Scene stage: always covers the viewport while keeping the artwork's aspect ratio. */
+.stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: max(100vw, calc(100svh * var(--ar)));
+  aspect-ratio: var(--ar);
+  translate: -50% -50%;
+  background-size: cover;
+}
+
+/* Header, counter and enquiry button follow the theme of the scene on screen. */
+.mk {
+  color: var(--ink);
+  transition: color 0.8s;
+}
